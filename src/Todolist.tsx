@@ -9,7 +9,7 @@ export type TaskType = {
 
 type PropsType = {
   title: string;
-  tasks: Array<TaskType>;
+  tasks: TaskType[];
   removeTask: (id: number) => void;
   changeFilter: (value: FilterValuesType) => void;
 };
